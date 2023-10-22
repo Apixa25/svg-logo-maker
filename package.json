@@ -1,0 +1,19 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "This is an .SVG logo maker that uses the command line and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apixa25/svg-logo-maker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apixa25/svg-logo-maker/issues"
+  },
+  "homepage": "https://github.com/Apixa25/svg-logo-maker#readme"
+}
