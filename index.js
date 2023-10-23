@@ -24,7 +24,7 @@ inquirer
     {
       type: 'list',
       name: 'shape',
-      message: 'Choose a shape: ',
+      message: 'Choose a shape I know there should be more: ',
       choices: ['Circle', 'Triangle', 'Square'],
     },
     {
@@ -41,5 +41,5 @@ inquirer
     // Write the SVG content to a file
     fs.writeFileSync('logo.svg', svgContent);
 //generates a message "Generated logo.svg!" once the process is finished and the logo is made
-    console.log('Generated logo.svg!');
+    console.log('Now you gota plain ass logo! :-)');
   });
