@@ -5,7 +5,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 const { circle, triangle, square } = require('./lib/shapes.js')
-const { createSVG } = require('./lib/svgGenerator.js'); // this is reaqireing the svgGenerator.js file to get the function from there
+const { createLOGO } = require('./lib/svgGenerator.js'); // this is reaqireing the svgGenerator.js file to get the function from there
 
 // Prompt the user for input
 inquirer
@@ -25,7 +25,7 @@ inquirer
       type: 'list',
       name: 'shape',
       message: 'Choose a shape: ',
-      choices: ['circle', 'triangle', 'square'],
+      choices: ['Circle', 'Triangle', 'Square'],
     },
     {
       type: 'input',
@@ -36,7 +36,7 @@ inquirer
   //this is the function that takes the content and makes an .svg file
   .then((answers) => {
     // Generate the SVG content
-    const svgContent = createSVG(answers);
+    const svgContent = createLOGO(answers);
   
     // Write the SVG content to a file
     fs.writeFileSync('logo.svg', svgContent);
