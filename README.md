@@ -7,7 +7,7 @@
   [![Jest Badge](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff&style=flat)](https://jestjs.io/)
 ## Description 
 
-[Watch a video of me demoing how it works!](https://youtu.be/BFyeuLhjcPY) 👀
+[Watch a video of me demoing how it works!](https://drive.google.com/file/d/1u-KKeO58WoXT5r9w4fcma0kJDsFJ-fTu/view) 👀
 
 Sometimes you may need a quick and simple-to-use logo maker.  At that moment you could use this program I built right here! It will generate an SVG logo. Why SVG you ask? Scalable Vector Graphics is an XML-based vector image format for defining two-dimensional graphics.  
 
